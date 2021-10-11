@@ -1,8 +1,15 @@
 # container_from_scratch
 Tested container from Liz Rice on Ubuntu 20.04 LTS, release 20.04
 
-# Follow tutorial from: https://www.youtube.com/watch?v=8fi7uSYlOdc
-# fork on github from: https://github.com/lizrice/containers-from-scratch
+# Follow tutorial from: 
+https://www.youtube.com/watch?v=8fi7uSYlOdc <br/>
+fork on github from: https://github.com/lizrice/containers-from-scratch <br/>
+you can easily edit main.go code on Ubuntu Text Editor <br/>
+
+# Golang references for palackges and library function parameters: 
+https://pkg.go.dev/syscall <br/>
+https://man7.org/linux/man-pages/man2/clone.2.html <br/>
+
 
 # Concepts: 
 kernel space<br />
@@ -149,8 +156,5 @@ I recommend:
   1. go through entire tutorial of installing on desktop, then building image, running app, persistance of data across app updates etc.:
   https://www.docker.com/101-tutorial
   2. https://kubernetes.io/docs/tutorials/kubernetes-basics/
-
-
-
 
 
