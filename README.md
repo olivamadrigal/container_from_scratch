@@ -25,13 +25,7 @@ Description:	Ubuntu 20.04 LTS<br />
 Release:	20.04<br />
 Codename:	focal<br />
 
-# On container:
-root@ubuntu:/home/samira/cont# go build # main.go<br />
-root@ubuntu:/home/samira/cont# ./cont run /bin/bash<br />
-RunningP1 [/bin/bash] as 27424<br />
-RunningP2 [/bin/bash] as 1<br />
-
-# Install these packages if not already present:
+# Install these packages if not already present:
 $sudo<br />
 $snap install docker<br />
 $apt install docker.io<br />
@@ -39,6 +33,7 @@ $apt install go<br />
 $apt install golang-go<br />
 
 # From container: successful run as root: 
+root@ubuntu:/home/samira/cont# go build # main.go<br />
 root@ubuntu:/home/samira/cont# ./cont run /bin/bash<br />
 RunningP1 [/bin/bash] as 18431<br />
 RunningP2 [/bin/bash] as 1<br />
