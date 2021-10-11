@@ -6,23 +6,23 @@ Tested container from Liz Rice on Ubuntu 20.04 LTS, release 20.04
 
 # Ran on ubuntu:
 
-Distributor ID:	Ubuntu
-Description:	Ubuntu 20.04 LTS
-Release:	20.04
-Codename:	focal
+Distributor ID:	Ubuntu<br />
+Description:	Ubuntu 20.04 LTS<br />
+Release:	20.04<br />
+Codename:	focal<br />
 
 # On container:
-root@ubuntu:/home/samira/cont# go build # main.go
-root@ubuntu:/home/samira/cont# ./cont run /bin/bash
-RunningP1 [/bin/bash] as 27424
-RunningP2 [/bin/bash] as 1
+root@ubuntu:/home/samira/cont# go build # main.go<br />
+root@ubuntu:/home/samira/cont# ./cont run /bin/bash<br />
+RunningP1 [/bin/bash] as 27424<br />
+RunningP2 [/bin/bash] as 1<br />
 
 # Install these packages if not already present:
-$sudo
-$snap install docker
-$apt install docker.io
-$apt install go
-$apt install golang-go
+$sudo<br />
+$snap install docker<br />
+$apt install docker.io<br />
+$apt install go<br />
+$apt install golang-go<br />
 
 # From container: successful run as root: 
 root@ubuntu:/home/samira/cont# ./cont run /bin/bash
