@@ -136,20 +136,19 @@ samira@ubuntu:/sys/fs/cgroup/pids/samira$ ps -fax <br />
 
 
 # after we run again the container: <br />
-# can still see info from container process using sleep: <br />
-# from container<br />
+can still see info from container process using sleep: <br />
 root@CONTAINER:/# sleep 100<br />
 # from host:<br />
 samira@ubuntu:/sys/fs/cgroup/pids/samira$ ps -C sleep<br />
     PID TTY          TIME CMD<br />
-  27758 pts/0    00:00:00 sleep<br />
+  27758 pts/0    00:00:00 sleep<br /><br />
 
-# Next, you can play with docker and kubernestes:
-# On docker, you can follow this tutorial and exercise running priviledged, setting max pids, etc:
-# ex: docker container run --pids-limit 20 <image>
-I recommend:
-  1. go through entire tutorial of installing on desktop, then building image, running app, persistance of data across app updates etc.:
-  https://www.docker.com/101-tutorial
-  2. https://kubernetes.io/docs/tutorials/kubernetes-basics/
+Next, you can play with docker and kubernestes:<br />
+On docker, you can follow this tutorial and exercise running priviledged, setting max pids, etc:<br />
+ex: docker container run --pids-limit 20 <image><br />
+I recommend:<br />
+  1. go through entire tutorial of installing on desktop, then building image, running app, persistance of data across app updates etc.<br />
+  https://www.docker.com/101-tutorial<br />
+  2. https://kubernetes.io/docs/tutorials/kubernetes-basics/<br /><br />
 
 
